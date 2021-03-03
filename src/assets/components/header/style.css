@@ -1,0 +1,148 @@
+.header
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 290px;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    color: #47B359;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.header .logo img 
+{
+    margin-left: 25px;
+    width: 212px;
+    height: 68px;
+}
+
+.show {
+    display: block;
+}
+
+.header .navbar 
+{
+    position: relative;
+    right: 0;
+}
+.header .navbar .navbar-collapse
+{
+    height: 100%;
+    position: relative;
+    right: 5px;
+}
+
+.header .navbar .navbar-collapse div
+{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.header .navbar .navbar-collapse div a 
+{
+    text-align: center;
+    text-decoration: none;
+    color: #47B359;
+    border-bottom: 2px solid #ffffff;
+}
+
+.header .navbar .navbar-collapse div a:hover 
+{
+    border-bottom-color:#47B359 ;
+}
+
+.header .navbar .navbar-collapse div .nav-item
+{
+    width: 80px;
+    height: 50%;
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.header .navbar .navbar-collapse div .nav-item.btn 
+{
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    background-color: #47B359;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+button 
+{
+    outline: none;
+}
+.navbar-toggler 
+{
+    border: none;
+    display: none;
+}
+.navbar-toggler .navbar-icon
+{
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 5px;
+}
+
+
+
+@media (max-width: 995px)
+{
+    .header .logo img 
+    {
+        margin-left: 15px;
+        width: 180px;
+        height: 45px;
+    }
+    .navbar-toggler 
+    {
+        display: block;
+    }
+    .header .navbar .navbar-collapse:not(.show) 
+    {
+        display: none;
+    }
+    .header .navbar .navbar-collapse div
+    {
+        z-index: 1;
+        transition: .7s;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: -4px;
+        top: 28px;
+        padding-top: 15px;
+        background: aliceblue;
+        height: 360px;
+        width: 320px;
+    }
+    .header .navbar .navbar-collapse div .nav-item
+    {
+        margin-bottom: 20px;
+    }
+    .header .navbar .navbar-collapse div .nav-item.btn
+    {
+        height: 200px;
+    }
+}
+
+@media(max-width: 350px)
+{
+    .header .navbar .navbar-collapse div
+    {
+        right: -15px;
+        width: 270px;
+    }
+}

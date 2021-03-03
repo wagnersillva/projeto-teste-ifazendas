@@ -1,0 +1,168 @@
+.suporte .imagem img
+{
+    width: 100vw;
+}
+.suporte .detalhes 
+{
+    background-image: url('../../../img/suporte2.jpg');
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suporte .detalhes h2
+{
+    
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 90px;
+}
+.suporte .detalhes p
+{
+    
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+
+.suporte .detalhes button  
+{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    top: 130px;
+    border: none;
+    background: #fff;
+    color: #47B359;
+    transition: .5s;
+    border-radius: 4px;
+}
+.suporte .detalhes button:hover 
+{
+    box-shadow: 0px 0px 4px black;
+}
+
+.suporte .div-modal
+{
+    display: none;
+    width: 95%;
+    height: 690px;
+    position: fixed;
+    top: 5px;
+    left: 1%;
+    border-radius: 4px;
+}
+.suporte  > .div-modal > img
+{
+    width: 20px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.formulario 
+{
+    background: #47B359;
+    width: 100%;
+    height: 100%;
+}
+.formulario h2
+{
+    position: relative;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.formulario .informacoes 
+{
+    position: relative;
+    top: 70px;
+    left: 10%;
+}
+.formulario .informacoes ul li
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formulario .informacoes ul li p 
+{
+    color: #fff;
+    margin: 0 0 0 20px;
+}
+
+.formulario .informacoes ul li img
+{
+    width: 20px;
+}
+.formulario .form form
+{
+    margin-top: 80px;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario .form form input, .formulario .form form textarea, .formulario .form form > button
+{
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+}
+.formulario .form form > button
+{
+    color: #fff;
+    height: 50px;
+    background: #D4762F;
+}
+.formulario .form form input, .formulario .form form textarea
+{
+    padding: 0 0 0 10px;
+}
+.formulario .form form input
+{
+    height: 40px;
+}
+@media(max-width: 400px)
+{
+    .formulario .informacoes ul li p 
+    {   
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .suporte .detalhes > button 
+    {
+        top: 110px;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .suporte .detalhes h2
+    {
+        font-size: 1.5rem;
+    }
+    .suporte .detalhesp
+    {
+        font-size: 0.8rem;
+        padding: 0 5px;
+    }
+}
+@media (max-width: 330px)
+{
+    .suporte .div-modal {
+        left: 1%;
+    }
+}

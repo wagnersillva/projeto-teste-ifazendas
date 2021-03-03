@@ -1,0 +1,197 @@
+.Apresentacao 
+{
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.Apresentacao  .primeiraParte
+{
+    color: #515151;
+    height: 600PX;
+    display: flex;
+    flex-direction: row;
+}
+
+.Apresentacao  .primeiraParte > .titulo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 180px;
+    border-right: 2px #515151 solid;
+}
+.Apresentacao  .primeiraParte .titulo h2
+{
+    width: 400px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.Apresentacao  .primeiraParte .titulo p
+{
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Apresentacao  .primeiraParte .resultadosAlcancados
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.Apresentacao  .primeiraParte .resultadosAlcancados .listaResultados
+{
+    margin-top: 15px;
+}
+.Apresentacao  .primeiraParte .resultadosAlcancados .listaResultados .resultadoItem
+{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.Apresentacao  .primeiraParte .resultadosAlcancados .listaResultados .resultadoItem img
+{
+    width: 30px;
+    margin-right: 20px;
+}
+button 
+{
+    outline: none;
+}
+.btn-saibaMais 
+{
+    width: 400px;
+    height: 70px;
+    background-color: #47B359;
+    color: #fff;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Apresentacao .segundaParte
+{   
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #515151;
+}
+.Apresentacao .segundaParte .titulo h2
+{   
+    text-align: center;
+    font-size: 40px;
+}
+.Apresentacao .segundaParte .detalhes
+{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Apresentacao .segundaParte .detalhes .imagem 
+{   
+    width: 50%;
+    min-width: 280px;
+}
+.Apresentacao .segundaParte .detalhes .imagem img
+{   
+    padding-left: 10%;
+    width: 70%;
+}
+.Apresentacao .segundaParte .detalhes .lista ul li 
+{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Apresentacao .segundaParte .detalhes .lista ul li img
+{   
+    width: 40px;
+}
+
+/* responsividade */
+
+@media (max-width: 850px) {
+
+    .Apresentacao  .primeiraParte
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 180px;
+    }
+
+    .Apresentacao  .primeiraParte > .titulo
+    {
+        border: none;
+    }
+
+    .Apresentacao  .primeiraParte .resultadosAlcancados
+    {
+        width: 400px;
+    }
+
+    .Apresentacao .segundaParte 
+    {   
+        margin-top: 100px;
+    }
+    .Apresentacao .segundaParte .detalhes
+    {   
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 415px){
+    .Apresentacao  .primeiraParte > .titulo h2
+    {
+        width: 325px;
+        font-size: 30px;
+    }
+    .Apresentacao  .primeiraParte > .titulo p
+    {
+        width: 325px;
+    }
+    .Apresentacao .primeiraParte .resultadosAlcancados .listaResultados .resultadoItem 
+    {
+        font-size: 13px;
+    }
+    .btn-saibaMais 
+    {
+        width: 80%;
+    }
+    .Apresentacao  .primeiraParte .resultadosAlcancados
+    {
+        width: 80%;
+    }
+    .Apresentacao .segundaParte .titulo h2
+    {   
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 350px) {
+    .Apresentacao .segundaParte .detalhes .lista ul 
+    {
+        width: 300px;
+        font-size: 13px;
+    }
+}
+@media(max-width: 325px) {
+    .Apresentacao  .primeiraParte > .titulo h2
+    {
+        width: 250px;
+        font-size: 25px;
+    }
+    .Apresentacao  .primeiraParte > .titulo p
+    {
+        width: 250px;
+    }
+}

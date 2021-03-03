@@ -1,0 +1,194 @@
+.planos 
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.planos .titulo
+{
+    color: #515151;
+    margin-bottom: 50px;
+}
+
+.cards 
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.cards .card 
+{
+    margin-right: 5vw;
+    border: 1px solid rgb(0 0 0 / 25%);
+    box-shadow: 2px 2px 15px 1px rgb(0 0 0 / 20%);
+    border-radius: 5px 100px;
+    height: 450px;
+    width: 280px;
+    cursor: pointer;
+}
+
+.cards .card:hover 
+{
+    box-shadow: 2px 2px 15px 3px rgb(0 0 0 / 25%);
+}
+.cards .card  h3
+{
+    margin-bottom: 35px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    margin-left: 70px;
+}
+.cards .card.start  h3
+{
+    color: #E0E000;
+}
+.cards .card.plus  h3
+{
+    color: #D4762F;
+}
+.cards .card.master  h3
+{
+    color: #47B359;
+}
+.cards .card  ul
+{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 15px;
+    left: 50px;
+}
+.cards .card  ul li
+{
+    margin-bottom: 10px;
+}
+.cards .card .preco
+{
+ margin-top: 50px;
+}
+.cards .card .preco .anual
+{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards .card .preco .anual span
+{
+    font-size: 10px;
+}
+.cards .card .preco .anual p
+{
+    font-size: 35px;
+}
+.cards .card .preco .mensal
+{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.cards .card .preco .mensal span
+{
+    font-size: 10px;
+}
+.cards .card .preco .mensal p
+{
+    font-size: 20px;
+}
+.cards .card.start .preco
+{
+    color:#E0E000;
+}
+.cards .card.plus .preco 
+{
+    color:#D4762F;
+}
+.cards .card.master .preco 
+{
+    color:#47B359;
+}
+.cards .card .preco button
+{
+    margin-bottom: 5px;
+    position: relative;
+    top: 25px;
+    right: -35px;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px 10px 10px 42px;
+    border: none;
+    color: #fff;
+}
+.cards .card.start .preco button
+{
+    background-color: #E0E000;
+}
+.cards .card.plus .preco button
+{
+    background-color: #D4762F;
+}
+.cards .card.master .preco button
+{
+    background-color: #47B359;
+}
+
+.planos > span 
+{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+/* responsividade */
+
+@media(max-width: 1100px)
+{
+    .cards .card 
+    {
+        margin: 0 2vw;
+    }
+}
+@media(max-width: 990px)
+{
+    .cards .card 
+    {
+        margin: 0 1vw;
+    }
+}
+@media(max-width: 885px)
+{
+    .cards 
+    {
+        flex-direction: column;
+    }
+    .cards .card 
+    {
+        margin-bottom: 30px;
+    }
+    .planos span 
+    {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 350px)
+{
+    .planos .titulo h2 
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 300px)
+{
+    .cards .card 
+    {
+        width: 275px;
+    }
+}
