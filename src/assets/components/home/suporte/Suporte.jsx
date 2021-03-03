@@ -56,9 +56,9 @@ export default class Suporte extends Component {
                     })
                     .then(() => {
                         document.getElementById('DivModal').style.display='none'
-                        this.state.nome = ''
-                        this.state.email = ''
-                        this.state.mensagem = ''
+                        this.setState({name: ''})
+                        this.setState({email: ''})
+                        this.setState({mensagem: ''})
                     })
             }
             else{
