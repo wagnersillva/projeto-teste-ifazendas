@@ -1,75 +1,50 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<h1>
+    <img src="./src/assets/img/logo-ifazendas.png">
+    <p>Website para iFazendas, um sistema de gerenciamento de fazendas.🟨🟧🟩📈</p>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>
+     <p>▶ Preview Web/ mobile</p>
+     <img src="./src/assets/img/gif-completed-1.gif"><img src="./src/assets/img/gif-completed-2.gif">
+</h1>
 
-## Available Scripts
+## 📚 Sobre
 
-In the project directory, you can run:
+**iFazendas** é um projeto para uma compania fictícia de gerenciamento de fazendas. Foi criado o layout usando **Figma**, logomarca usando **Photoshop** e, em seguida, criado o web site usando **ReactJs** para estrutura e scripts, **sweet alert 2** para um alerta estilizado e **Firebase** para salvar formulários enviados.
 
-### `yarn start`
+## 🔨 Ferramentas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Figma
+- Photoshop
+- ReactJs
+- SweetAlert2
+- Firebase
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✅ Veja o projeto online
 
-### `yarn test`
+- <a target="_blank" href="http://projeto-ifazendas-koala-dev.vercel.app/">Link do projeto online</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔁 Clonando repoitório e rodando
 
-### `yarn build`
+- Clone o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+    git clone https://github.com/wagnersillva/projeto-teste-ifazendas.git
+```
+- Entre na pasta
+``` bash
+    cd projeto-teste-ifazendas
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- instale as dependências 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` bash
+    npm install
+```
 
-### `yarn eject`
+- Rodando o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+``` bash
+    npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# projeto-teste-ifazendas
-Projeto teste ifazendas
->>>>>>> fc04b0d0336d7306192b4ce9ddfbe20992d65027
