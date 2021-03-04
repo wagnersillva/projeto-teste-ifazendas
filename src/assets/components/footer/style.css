@@ -1,26 +1,26 @@
-.footer 
+footer
 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footer img
+footer img 
 {
     width: 130px;
 }
-.footer .redesSociais
+footer .redesSociais
 {
     margin-top: 20px;
 }
-.footer .redesSociais a > img
+footer .redesSociais a > img
 {
     margin-right: 20px;
     width: 50px;
 }
 
-.footer > p 
+footer > p 
 {
-    margin-top: 20px;
+    margin: 20px 0;
     font-size: 0.8rem;
 }

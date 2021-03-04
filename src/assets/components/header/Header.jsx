@@ -7,7 +7,7 @@ import navbarToggleIcon from '../../img/icon-navbar-menu-verde.png'
 export default class Header extends Component {
     render() {
         return (
-            <div className="header" id="header">
+            <header id="header">
                 <div className="logo">
                     <img src={imgLogo} className="imgLogo" alt="logo iFazendas" />
                 </div>
@@ -26,7 +26,7 @@ export default class Header extends Component {
                         </div>
                     </div>
                 </nav>
-            </div>
+            </header>
         )
     }
 }

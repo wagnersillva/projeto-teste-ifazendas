@@ -5,7 +5,7 @@ export default class Planos extends Component
 {
     render() {
         return (
-            <div className="planos">
+            <section className="planos">
                 <div className="titulo">
                     <h2>Conheça nossos planos</h2>
                 </div>
@@ -72,7 +72,7 @@ export default class Planos extends Component
                     </div>
                 </div>
                 <span>Entre em contato se precisar de um plano diferente</span>
-            </div>
+            </section>
         )
     }
 } 

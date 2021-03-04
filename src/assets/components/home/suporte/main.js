@@ -3,10 +3,16 @@ window.addEventListener('load', ()=> {
     let DivModal = document.getElementById('DivModal')
     let imgClosedModal = document.getElementById('imgClosedModal')
     btnSuporte.onclick = () => {
-        DivModal.style.display="block";
+        setTimeout(()=>{
+            DivModal.style.display="block";
+        },10)
     }
     imgClosedModal.onclick= ()=> {
         DivModal.style.display="none";
     }
-    
+    window.onclick= () => {
+        if(DivModal.style.display === "block") {
+            DivModal.style.display="none";
+        } else {return}
+    }
 })

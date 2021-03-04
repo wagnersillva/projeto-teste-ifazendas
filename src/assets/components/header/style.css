@@ -1,4 +1,4 @@
-.header
+header
 {
     position: absolute;
     display: flex;
@@ -12,7 +12,7 @@
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
-.header .logo img 
+header .logo img 
 {
     margin-left: 25px;
     width: 212px;
@@ -23,19 +23,19 @@
     display: block;
 }
 
-.header .navbar 
+header .navbar 
 {
     position: relative;
     right: 0;
 }
-.header .navbar .navbar-collapse
+header .navbar .navbar-collapse
 {
     height: 100%;
     position: relative;
     right: 5px;
 }
 
-.header .navbar .navbar-collapse div
+header .navbar .navbar-collapse div
 {
     height: 60px;
     display: flex;
@@ -44,7 +44,7 @@
     align-items: baseline;
 }
 
-.header .navbar .navbar-collapse div a 
+header .navbar .navbar-collapse div a 
 {
     text-align: center;
     text-decoration: none;
@@ -52,12 +52,12 @@
     border-bottom: 2px solid #ffffff;
 }
 
-.header .navbar .navbar-collapse div a:hover 
+header .navbar .navbar-collapse div a:hover 
 {
     border-bottom-color:#47B359 ;
 }
 
-.header .navbar .navbar-collapse div .nav-item
+header .navbar .navbar-collapse div .nav-item
 {
     width: 80px;
     height: 50%;
@@ -66,7 +66,7 @@
     margin-right: 30px;
 }
 
-.header .navbar .navbar-collapse div .nav-item.btn 
+header .navbar .navbar-collapse div .nav-item.btn 
 {
     height: 60px;
     width: 150px;
@@ -86,6 +86,7 @@ button
 {
     border: none;
     display: none;
+    background-color: #fff;
 }
 .navbar-toggler .navbar-icon
 {
@@ -100,21 +101,21 @@ button
 
 @media (max-width: 995px)
 {
-    .header .logo img 
+    header .logo img 
     {
         margin-left: 15px;
         width: 180px;
-        height: 45px;
+        height: 60px;
     }
     .navbar-toggler 
     {
         display: block;
     }
-    .header .navbar .navbar-collapse:not(.show) 
+    header .navbar .navbar-collapse:not(.show) 
     {
         display: none;
     }
-    .header .navbar .navbar-collapse div
+    header .navbar .navbar-collapse div
     {
         z-index: 1;
         transition: .7s;
@@ -124,15 +125,15 @@ button
         right: -4px;
         top: 28px;
         padding-top: 15px;
-        background: aliceblue;
+        background: #fff;
         height: 360px;
         width: 320px;
     }
-    .header .navbar .navbar-collapse div .nav-item
+    header .navbar .navbar-collapse div .nav-item
     {
         margin-bottom: 20px;
     }
-    .header .navbar .navbar-collapse div .nav-item.btn
+    header .navbar .navbar-collapse div .nav-item.btn
     {
         height: 200px;
     }
@@ -140,7 +141,7 @@ button
 
 @media(max-width: 350px)
 {
-    .header .navbar .navbar-collapse div
+    header .navbar .navbar-collapse div
     {
         right: -15px;
         width: 270px;

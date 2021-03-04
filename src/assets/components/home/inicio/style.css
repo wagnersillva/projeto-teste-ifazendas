@@ -2,34 +2,32 @@
 {
     position: relative;
     top: 100px;
-    height: 600px;
 }
 
 .SessaoBanner img 
 {
     width: 100vw;
-    min-width: 295px;
     height: 100%;
-    max-height: 600px;
+    min-height: 350px;
+    max-height: 850px;
 }
 .SessaoBanner .camadaCinza 
 {
     position: absolute;
-    top: 0;
-    width: 100vw;
-    min-width: 295px;
-    height: 100%;
-    max-height: 600px;
     background: #515151;
     opacity: .6;
+    top: 0;
+    width: 100vw;
+    height: 99%;
+    min-height: 350px;
+    max-height: 850px;
 }
 
 .SessaoBanner .Conteudo 
 {
     position: absolute;
     Width: 500px;
-    Height: 200px;
-    Top: 150px;
+    Top: 15%;
     Left: 2%;
     text-align: center;
 }
@@ -37,6 +35,7 @@
 .SessaoBanner .Conteudo  h1
 {
     color: #fff;
+    font-size: 50px;
 }
 .SessaoBanner .Conteudo .btn-contrate
 {
@@ -75,11 +74,13 @@ button
         flex-direction: column;
         align-items: center;
         left: 0;
+        Top: 50px;
     }
     .SessaoBanner .Conteudo h1
     {
-        width: 350px;
-        font-size: 35px;
+        width: 390px;
+        font-size: 40px;
+        margin-bottom: 35px;
     }
     .SessaoBanner .Conteudo .btn-contrate a
     {
@@ -87,12 +88,28 @@ button
     }
 }
 
+@media (max-width: 400px) 
+{
+    .SessaoBanner .Conteudo h1 {
+        width: 340px;
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .SessaoBanner .Conteudo 
+    {
+        Top: 75px;
+    }
+}
 
 @media(max-width: 365px) {
+    .SessaoBanner .Conteudo 
+    {
+        Top: 90px;
+    }
     .SessaoBanner .Conteudo h1
     {
-        width: 250px;
-        font-size: 25px;
+        width: 292px;
+        font-size: 30px;
     }
     .SessaoBanner .Conteudo .btn-contrate
     {

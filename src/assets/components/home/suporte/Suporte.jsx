@@ -93,7 +93,7 @@ export default class Suporte extends Component {
 
     render() {
         return (
-            <div className="suporte">
+            <section className="suporte">
                 <div className="detalhes">
                     <h2>Conte com nosso suporte sempre que precisar</h2>
                     <p>Suporte especializado para lhe atender com a maior agilidade e qualidade.</p>
@@ -131,7 +131,7 @@ export default class Suporte extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

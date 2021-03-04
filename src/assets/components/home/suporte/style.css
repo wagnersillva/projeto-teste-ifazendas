@@ -34,7 +34,7 @@
     width: 250px;
     height: 60px;
     position: relative;
-    top: 130px;
+    top: 180px;
     border: none;
     background: #fff;
     color: #47B359;
@@ -60,7 +60,7 @@
 {
     width: 20px;
     position: relative;
-    top: 20px;
+    top: 30px;
     left: 5px;
 }
 
@@ -137,14 +137,6 @@
     .formulario .informacoes ul li p 
     {   
         font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 375px)
-{
-    .suporte .detalhes > button 
-    {
-        top: 110px;
     }
 }
 

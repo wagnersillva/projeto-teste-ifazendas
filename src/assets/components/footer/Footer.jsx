@@ -10,7 +10,7 @@ export default class Footer extends Component
 {
     render(){
         return(
-            <div className="footer">
+            <footer>
                 <img src={imgLogo} alt="" className=""/>
                 <div className="redesSociais">
                     <a target="_blank" rel="noreferrer" href="http://youtube.com"><img src={imgyoutube} alt=""/></a>
@@ -19,7 +19,7 @@ export default class Footer extends Component
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><img src={imgInstagram} alt=""/></a>
                 </div>
                 <p>iFazendas - 2021 - todos os direitos reservados</p>
-            </div>
+            </footer>
         )
     }
 }

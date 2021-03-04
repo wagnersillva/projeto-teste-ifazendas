@@ -14,7 +14,7 @@ export default class Apresentacao extends Component
 {
     render(){
         return (
-            <div className="Apresentacao">
+            <section className="Apresentacao">
                 <div className="primeiraParte">
                     <div className="titulo">
                         <h2 >
@@ -81,7 +81,7 @@ export default class Apresentacao extends Component
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
