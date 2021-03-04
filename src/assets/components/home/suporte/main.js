@@ -10,9 +10,4 @@ window.addEventListener('load', ()=> {
     imgClosedModal.onclick= ()=> {
         DivModal.style.display="none";
     }
-    window.onclick= () => {
-        if(DivModal.style.display === "block") {
-            DivModal.style.display="none";
-        } else {return}
-    }
 })
