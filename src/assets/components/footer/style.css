@@ -18,6 +18,11 @@ footer .redesSociais a > img
     margin-right: 20px;
     width: 50px;
 }
+footer .redesSociais a.imgInstagram > img
+{
+    margin-right: 0px;
+    width: 50px;
+}
 
 footer > p 
 {

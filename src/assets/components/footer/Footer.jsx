@@ -13,10 +13,10 @@ export default class Footer extends Component
             <footer>
                 <img src={imgLogo} alt="" className=""/>
                 <div className="redesSociais">
-                    <a target="_blank" rel="noreferrer" href="http://youtube.com"><img src={imgyoutube} alt=""/></a>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src={imgtwitter} alt=""/></a>
-                    <a target="_blank" rel="noreferrer" href="http://"><img src={imglinkedin} alt=""/></a>
-                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><img src={imgInstagram} alt=""/></a>
+                    <a target="_blank" className="imgyoutube" rel="noreferrer" href="http://youtube.com"><img src={imgyoutube} alt=""/></a>
+                    <a target="_blank" className="imgtwitter" rel="noreferrer" href="https://twitter.com/"><img src={imgtwitter} alt=""/></a>
+                    <a target="_blank" className="imglinkedin" rel="noreferrer" href="http://"><img src={imglinkedin} alt=""/></a>
+                    <a target="_blank" className="imgInstagram" rel="noreferrer" href="https://www.instagram.com/"><img src={imgInstagram} alt=""/></a>
                 </div>
                 <p>iFazendas - 2021 - todos os direitos reservados</p>
             </footer>
