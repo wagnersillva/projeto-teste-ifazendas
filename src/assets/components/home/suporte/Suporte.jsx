@@ -100,8 +100,8 @@ export default class Suporte extends Component {
                     <button id="btnSuporte">FALE CONOSCO</button>
                 </div>
                 <div className="div-modal" id="DivModal">
-                    <img src={iconClosed} id="imgClosedModal" alt="icon fechar modal"/>
                     <div className="conteudoModal">
+                    <img src={iconClosed} id="imgClosedModal" alt="icon fechar modal"/>
                         <div className="formulario">
                             <h2>FALE CONOSCO</h2>
                             <div className="informacoes">

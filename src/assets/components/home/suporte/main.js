@@ -4,7 +4,7 @@ window.addEventListener('load', ()=> {
     let imgClosedModal = document.getElementById('imgClosedModal')
     btnSuporte.onclick = () => {
         setTimeout(()=>{
-            DivModal.style.display="block";
+            DivModal.style.display="flex";
         },10)
     }
     imgClosedModal.onclick= ()=> {

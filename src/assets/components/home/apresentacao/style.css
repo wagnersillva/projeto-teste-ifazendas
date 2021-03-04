@@ -20,7 +20,6 @@
     align-items: center;
     position: relative;
     padding-top: 180px;
-    border-right: 2px #515151 solid;
 }
 .Apresentacao  .primeiraParte .titulo h2
 {
@@ -52,6 +51,9 @@
 {
     list-style-type: none;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .Apresentacao  .primeiraParte .resultadosAlcancados .listaResultados .resultadoItem img
 {
