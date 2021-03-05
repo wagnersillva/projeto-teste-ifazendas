@@ -10,7 +10,7 @@
 
 ## 📚 Sobre
 
-**iFazendas** é um projeto para uma compania fictícia de gerenciamento de fazendas. Foi criado o layout usando **Figma**, logomarca usando **Photoshop** e, em seguida, criado o web site usando **ReactJs** para estrutura e scripts, **sweet alert 2** para um alerta estilizado e **Firebase** para salvar formulários enviados.
+**iFazendas** é um projeto para uma companhia fictícia de gerenciamento de fazendas, com o intuito de  testar conhecimentos e habilidades. Foi criado o layout usando **Figma**, logomarca usando **Photoshop** e, em seguida, criado o web site usando **ReactJs** para estrutura e scripts, **sweet alert 2** para um alerta estilizado e **Firebase** para salvar formulários enviados.
 
 ## 🔨 Ferramentas
 
